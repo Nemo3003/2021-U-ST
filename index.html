@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Favorite Colors</legend>
+
+            <div>
+                <label>Color</label>
+            </div>
+            <div>
+                <input list="color-list" type="text">
+                <datalist id="color-list">
+                 <option value="Red">
+                 <option value="Green">
+                 <option value="Blue">
+                 <option value="Violet">
+                 <option value="Grey">
+    </datalist>
+            </div>
+
+            <br>
+            <div>
+                <input list="color-list" type="color">
+                <datalist id="color-list">
+                 <option value="Red">
+                 <option value="Green">
+                 <option value="Blue">
+                 <option value="Violet">
+                 <option value="Grey">
+    </datalist>
+            </div>
+
+            <br>
+
+            <label>File upload</label>
+            </div>
+            <div>
+                <progress value="50" max="100">50%</progress> progress
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
